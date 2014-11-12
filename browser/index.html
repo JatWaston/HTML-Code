@@ -8,6 +8,20 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style type="text/css">
+    .carousel {
+        height: 500px;
+        background-color: #000;
+    }
+    .carousel .item {
+        height: 500px;
+        background-color: #000;
+    }
+    .carousel img {
+        width: 100%;
+    }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,6 +84,61 @@
         </div>
       </div>
     </nav>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./images/chrome-big.jpg" alt="Chrome">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/firefox-big.jpg" alt="Firefox">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/safari-big.jpg" alt="Safari">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/opera-big.jpg" alt="Opera">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/ie-big.jpg" alt="IE">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">上一页</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">下一页</span>
+  </a>
+</div>
+
 <!--     <p>12344skhfsfjsfjskfjskfjskdf</p>
     <p>12344skhfsfjsfjskfjskfjskdf</p>
     <p>12344skhfsfjsfjskfjskfjskdf</p>
